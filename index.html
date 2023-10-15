@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arief a.k.a Ziaq</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        footer {
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            box-shadow: -14px 11px 23px 0px rgba(0, 0, 0, 0.15);
+        }
+
+        header {
+            position: fixed;
+            width: 100%;
+        }
+
+        .navbar {
+            z-index: 1;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+            border-radius: 0 0 50px 50px;
+            max-width: max-content;
+            padding: 20px 100px 20px 100px;
+            margin: 0 auto;
+            width: 100%;
+            box-shadow: -14px 11px 23px 0px rgba(0, 0, 0, 0.15);
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar ul li {
+            text-decoration: none;
+        }
+
+        .container {
+            padding: 0 30px 0 30px;
+            flex: 1px;
+        }
+
+        .skill__section {
+            max-width: 80%;
+            margin: 0 auto;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .hero__section {
+            max-width: 80%;
+            margin: 0 auto;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @media (min-width: 768px) {
+            .hero__section_content {
+                width: 50% !important;
+                padding: 100px;
+            }
+        }
+
+        .hero__section_content {
+            width: 80%;
+            padding: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .hero__section {
+                margin-top: 100px;
+                flex-direction: column;
+            }
+        }
+
+        .hero__section_content h4 {
+            font-size: 30px;
+            font-weight: lighter;
+        }
+
+        .hero__section_content a {
+            display: block;
+            margin-top: 40px;
+            text-decoration: none;
+            background-color: white;
+            color: black;
+            border: black solid 1px;
+            max-width: max-content;
+            padding: 13px;
+            border-radius: 20px;
+            transition: all ease-in-out;
+            transition-duration: 0.2s;
+        }
+
+        .hero__section_img img {
+            width: 100%;
+        }
+
+        .hero__section_content a:hover {
+            color: white;
+            background-color: black;
+        }
+
+        .skill__section_content_wrapper {
+            margin-bottom: 50px;
+            max-width: 80%;
+            display: flex;
+            overflow-x: auto;
+            padding: 10px;
+            gap: 20px;
+        }
+
+        .skill__section_content_wrapper img {
+            width: 30px;
+        }
+
+        .skill__section_content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .skill__section_content_title {
+            margin-top: 10px;
+        }
+
+        .skill__section_content_icon {
+            width: 64px;
+            height: 64px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 1000px;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><b>Ziaq</b> Portofolio</li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="hero__section">
+            <div class="hero__section_content">
+                <h4>Arief Akhmad Fauzi a.k.a Ziaq</h4>
+                Yo, what’s up! I’m Arief Akhmad Fauzi, or you might know me as Ziaq on the internet. I’m 20 years old,
+                rocking the fullstack JavaScript developer gig, and I can also handle some PHP magic for the backend.
+                <a href="https://github.com/Arief-af">Get in Touch</a>
+            </div>
+            <div class="hero__section_img">
+                <img src="src/hero-img.png" alt="ziaq">
+            </div>
+        </section>
+        <section class="skill__section">
+            <h2>SKILL</h2>
+            <div class="skill__section_content_wrapper">
+                <div class="skill__section_content">
+                    <div class="skill__section_content_icon">
+                        <img src="src/icon-1.png" alt="" srcset="">
+                    </div>
+                    <div class="skill__section_content_title">
+                        Laravel
+                    </div>
+                </div>
+                <div class="skill__section_content">
+                    <div class="skill__section_content_icon">
+                        <img src="src/icon-2.png" alt="" srcset="">
+                    </div>
+                    <div class="skill__section_content_title">
+                        Quasar
+                    </div>
+                </div>
+                <div class="skill__section_content">
+                    <div class="skill__section_content_icon">
+                        <img src="src/icon-3.png" alt="" srcset="">
+                    </div>
+                    <div class="skill__section_content_title">
+                        Tailwind
+                    </div>
+                </div>
+                <div class="skill__section_content">
+                    <div class="skill__section_content_icon">
+                        <img src="src/icon-4.png" alt="" srcset="">
+                    </div>
+                    <div class="skill__section_content_title">
+                        NuxtJs
+                    </div>
+                </div>
+                <div class="skill__section_content">
+                    <div class="skill__section_content_icon">
+                        <img src="src/icon-5.png" alt="" srcset="">
+                    </div>
+                    <div class="skill__section_content_title">
+                        VueJS
+                    </div>
+                </div>
+                <div class="skill__section_content">
+                    <div class="skill__section_content_icon">
+                        <img src="src/icon-6.png" alt="" srcset="">
+                    </div>
+                    <div class="skill__section_content_title">
+                        JavaScript
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        Copyright by ziaq
+    </footer>
+</body>
+
+</html>
